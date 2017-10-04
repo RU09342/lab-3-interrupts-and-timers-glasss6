@@ -1,3 +1,11 @@
+/**
+ * main.c
+ 2-player reaction game. First player to press button 10 time wins.
+ Utilizes button P1.1 and P1.2
+ MSP430FR6989
+ Stephen Glass
+ */
+
 #include <driverlib.h>
 #include "hal_LCD.h"
 
