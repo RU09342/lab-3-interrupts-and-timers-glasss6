@@ -44,7 +44,7 @@ void initializeTimer(int hertz) // Seconds = 1/Hertz, 10Hz = 0.1s
     TB0CCR0 = capture; // (1000000/8)/(12500) = 10 Hz = 0.1 seconds
 }
 
-// Timer A0 interrupt service routine
+// Timer B0 interrupt service routine
 #pragma vector=TIMER0_B0_VECTOR
 __interrupt void Timer0_B0 (void)
 {
