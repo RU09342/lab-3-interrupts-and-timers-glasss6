@@ -14,7 +14,7 @@ main.c will program the Timer A module (Timer B for MSP430FR2311) to interrupt a
 
 ## Functions
 ### initializeTimer(int capture)
-This function will initialize the TimerA/B module with the timing of your choosing.
+This function will initialize the TimerA/B module with the timing of your choosing. This is done by using the SMCLK and using any clock dividers neccessary to achieve correct timing. We set the capture compare registers to compare to certain calculated integer to get the correct timing.
 * int capture = time in hertz to cycle
 
 Example:

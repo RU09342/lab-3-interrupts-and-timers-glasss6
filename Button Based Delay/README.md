@@ -20,6 +20,13 @@ This function will initialize the TimerA/B module with the timing of your choosi
 Example:
 initializeTimer(20); // Initialize a timer for 20Hz
 
+### setSpeed(int speed)
+This function will set the speed of the blinking LED. Parameters are an intger 1-10.
+* int speed = integer for speed to set corresponding to SPEED_X define
+
+Example:
+setSpeed(5); // Sets the blinking LED speed to SPEED_5
+
 ### Extra Work
 ## Reset Button
 Press Button 2 to reset the timer to the initial 10Hz.
